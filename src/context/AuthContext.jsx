@@ -5,7 +5,7 @@ export const dataContext = createContext()
 
 function AuthContext({children}) {
 
-    const serverUrl = "http://localhost:3000"
+    const serverUrl = "https://backend-airbnb-seven.vercel.app";
     const value = {
         serverUrl
     }
